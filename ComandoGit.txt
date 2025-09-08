@@ -1,0 +1,11 @@
+// Adiciona todos os arquivos alterados na preparação para subir no repositório;
+git add . 
+
+// Faz o comit do que está sendo feito;
+git commit -m "seu comentario"
+
+//Sobe as alterações para o repositório;
+git push
+
+// Busca as alterações feita no repositório;
+git pull
