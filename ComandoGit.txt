@@ -4,8 +4,31 @@ git add .
 // Faz o comit do que está sendo feito;
 git commit -m "seu comentario"
 
-//Sobe as alterações para o repositório;
+// Sobe as alterações para o repositório;
 git push
 
 // Busca as alterações feita no repositório;
 git pull
+
+// Verificar status do repositório se tem atualização ou commits pendentes;
+git status
+
+=== Trabalhando com Branch ===
+// Ver as branchs atuais;
+git branch
+
+// Criar uma branch
+git branch nome-da-branch
+
+// Acessar uma branch
+git checkout nome-da-branch
+
+// Criar e já acessar uma branch
+git checkout -b nome-da-brench
+
+// Mesclar as atualizações feitas de uma branch na outra;
+* Após acessar a branch de destino das atualizações....
+git merge nome-da-brench (Com as atualizações)
+
+// Apagar uma branch;
+git branch -d nome-da-branch
